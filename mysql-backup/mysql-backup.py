@@ -1,6 +1,12 @@
 #!/usr/bin/python
 """
 MySQL databases backup script
+
+Usage:   mysql-backup.py
+
+Configuration:
+- copy config.py.dist to config.py (alongside mysql-backup.py)
+
 """
 
 from datetime import datetime, timedelta
