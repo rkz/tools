@@ -1,0 +1,6 @@
+# Configuration
+MYSQL_USER = 'backup'
+MYSQL_PASSWD = 'mRanab3UUmPjShzE'
+BACKUP_DIRECTORY = '/var/backups/databases'  # No trailing slash
+DATABASES = ['redmine_dmgsv', 'jeunesartistes']
+MAX_AGE = 28  # days
